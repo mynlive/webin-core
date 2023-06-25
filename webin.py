@@ -130,7 +130,7 @@ class MainWindow(QMainWindow):
     def sp_btn_fn(self):
         dlg = QMessageBox(self)
         dlg.setWindowTitle("Версия Webin")
-        dlg.setText("Webin \nВерсия 23H2 \nДвижок PyQt \nMade By NL \n\nWebinbr.tilda.ws                          ")
+        dlg.setText("Webin \nВерсия Core 23H2 \nДвижок PyQt \nMade By NL \n\nWebinbr.tilda.ws                          ")
         button = dlg.exec()
 
         if button == QMessageBox.Ok:
