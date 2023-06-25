@@ -1,0 +1,31 @@
+QWidget {
+    color: white;
+    background-color: #121212;
+    font-family: arial;
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+QPushButton {
+    background-color: #121212;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+
+QTabBar::tab {
+    background-color: #121212;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 5px;
+}
+
+QTabBar::tab:selected {
+    background-color: #121212;
+    border: none;
+}
+
+QTabBar::tab:hover {
+    background-color: #121212;
+}
